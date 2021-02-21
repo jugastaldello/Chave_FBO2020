@@ -1,0 +1,49 @@
+###########################
+### Gráfico de dispersão ##
+###########################
+#sem precisa carregar pacotes
+#Carregando os dados:
+
+getwd() #checar diretório
+setwd("/Users/ju_rando/Documents/Curso_R/Modulo_3") #mudar de diretório
+dir() #O que tem no diretório
+dados<-read.table("dados_atividade3.txt", h=T) 
+
+summary(dados)
+
+####################
+#Gráfico de dispersão simples
+
+plot(dados$Adubo~dados$Produtividade) #ver se tem relação o uso do adubo e a produtividade.
+
+plot(dados$Produtividade~dados$Adubo) #ver se tem relação o uso do adubo e a produtividade.
+
+#Melhorando o gráfico
+plot(dados$Produtividade~dados$Adubo, xlab="Adubo", ylab="Produtividade", las=1, pch=16) 
+
+#######
+#separando os cultivos (comum e agroflorestal) para comparar, empilhados:
+
+par(mfrow=c(2,1)) #ele vai dividir a janela do gráfico, para colocarmos mais de um gráfico na janela, par de parâmetros
+
+dev.off() #desativa o comando par
+
+plot(dados$Produtividade[dados$Cultivo=="comum"]~dados$Adubo[dados$Cultivo=="comum"], xlab="Adubo", ylab="Produtividade", las=1, pch=16, main="Produtividade no sistema comum", ylim=c(12,22), xlim=c(8,14), col="red") 
+
+
+
+#separando os ambientes (primário e secundário) para comparar, lado a lado:
+
+par(mfrow=c(1,2)) #ele vai dividir a janela do gráfico, para colocarmos mais de um gráfico na janela, par de parâmetros
+
+plot(dados$Riqueza[dados$Ambiente=="primario"]~dados$Area[dados$Ambiente=="primario"], xlab="Área do fragmento", ylab="Número", las=1, pch=16, main="Mata primária") 
+
+plot(dados$Riqueza[dados$Ambiente=="secundario"]~dados$Area[dados$Ambiente=="secundario"], xlab="Área do fragmento", ylab="Número", las=1, pch=16, main="Mata secundária") 
+
+#Agora separando por cores, mas tudo em um gráfico:
+
+levels(dados$Ambiente)
+cores<-c("green4", "red4")
+plot(dados$Riqueza~dados$Area, xlab="Área do fragmento", ylab="Número", las=1, pch=16, col=cores[dados$Ambiente]) 
+
+legend("topleft", pch=16, col=cores, legend=c("Mata primária", "Mata secundária"))

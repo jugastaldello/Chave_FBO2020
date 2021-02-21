@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1612137316190.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2928742906",
+    "id" : "69F6F77",
+    "lastKnownWriteTime" : 1588815502,
+    "last_content_update" : 1588815502,
+    "path" : "~/Documents/Curso_R/Modulo_3/Atividade_3_grafico_dispersao.R",
+    "project_path" : null,
+    "properties" : {
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

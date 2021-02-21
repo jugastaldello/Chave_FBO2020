@@ -1,0 +1,16 @@
+set.seed(1) # set the seed
+
+rbdtree(b=log(50),d=0,Tmax=1)
+
+tree<-rbdtree(b=log(50),d=0,Tmax=1)
+
+tree
+
+trees<-splitTree(tree,list(node = 153,bp = 0.09))
+
+trees[[2]]$edge.length<-trees[[2]]$edge.length*10
+
+sim.tree<-paste.tree(trees[[1]],trees[[2]])
+
+plotTree(sim.tree,fsize = 0.5)
+

@@ -1,0 +1,72 @@
+ID,Character.old,Character,Check.box.label,Check.box.id
+1,,Acre,Ocorrência,occurrence
+2,,Alagoas,Ocorrência,occurrence
+3,,Amazonas,Ocorrência,occurrence
+4,,Amapá,Ocorrência,occurrence
+5,,Bahia,Ocorrência,occurrence
+6,,Ceará,Ocorrência,occurrence
+7,,Distrito Federal,Ocorrência,occurrence
+8,,Espírito Santo,Ocorrência,occurrence
+9,,Goiás,Ocorrência,occurrence
+10,,Maranhão,Ocorrência,occurrence
+11,,Minas Gerais,Ocorrência,occurrence
+12,,Mato Grosso do Sul,Ocorrência,occurrence
+13,,Mato Grosso,Ocorrência,occurrence
+14,,Pará,Ocorrência,occurrence
+15,,Paraíba,Ocorrência,occurrence
+16,,Pernambuco,Ocorrência,occurrence
+17,,Piauí,Ocorrência,occurrence
+18,,Paraná,Ocorrência,occurrence
+19,,Rio de Janeiro,Ocorrência,occurrence
+20,,Rio Grande do Norte,Ocorrência,occurrence
+21,,Rondônia,Ocorrência,occurrence
+22,,Roraima,Ocorrência,occurrence
+23,,Rio Grande do Sul,Ocorrência,occurrence
+24,,Santa Catarina,Ocorrência,occurrence
+25,,Sergipe,Ocorrência,occurrence
+26,,São Paulo,Ocorrência,occurrence
+27,,Tocantins,Ocorrência,occurrence
+28,,Amazônia,Domínio,domain
+29,,Caatinga,Domínio,domain
+30,,Cerrado,Domínio,domain
+31,,Mata Atlântica,Domínio,domain
+32,,Pampa,Domínio,domain
+33,,Pantanal,Domínio,domain
+34,,Árvore,Forma,life.form
+35,,Arvoreta,Forma,life.form
+36,,Arbusto,Forma,life.form
+37,,Subarbusto (mesmo que pouco lignificada e de pequeno porte),Forma,life.form
+38,,Dística,Filotaxia,Phyllotaxy
+39,,Espiralada,Filotaxia,Phyllotaxy
+40,,Folíolos: 1 par,Folhas,Leaves
+41,,Folíolos: 2 pares,Folhas,Leaves
+42,,Folíolos: 3 pares,Folhas,Leaves
+43,,Folíolos: 4 pares,Folhas,Leaves
+44,,Folíolos: 5 pares ,Folhas,Leaves
+45,,Folíolos: 6 pares,Folhas,Leaves
+46,,Folíolos: 7 pares,Folhas,Leaves
+47,,Folíolos: 8 pares,Folhas,Leaves
+48,,Folíolos: 9 pares,Folhas,Leaves
+49,,Folíolos: 10 - 20 pares,Folhas,Leaves
+50,,Folíolos: 21 - 40 pares,Folhas,Leaves
+51,,Folíolos: 41 - 60 pares,Folhas,Leaves
+52,,Folíolos: mais de 60 pares,Folhas,Leaves
+53,,Pecioladas (mesmo que seja curtamente peciolada),Folhas,Leaves
+54,,Sésseis,Folhas,Leaves
+55,,Racemos ramifloros,Inflorescência,Inflorescence
+56,,Racemos terminais,Inflorescência,Inflorescence
+57,,Racemos axilar e terminal (racemos compostos),Inflorescência,Inflorescence
+58,,Racemos axilar com muitas flores (>8),Inflorescência,Inflorescence
+59,,Racemos axilar com poucas flores (fascículos 1 até 8),Inflorescência,Inflorescence
+60,,Racemos axilar com o pedúnculo adnato ao ramo (fascículo supraxilar),Inflorescência,Inflorescence
+61,,"Flor axilar (a bráctea é a folha)*",Inflorescência,Inflorescence
+62,,Nectários extraflorais no pecíolo,Nectários,Extrafloral_Nectaries
+63,,Nectários extraflorais na raque,Nectários,Extrafloral_Nectaries
+64,,Nectários extraflorais na eixo da inflorescência,Nectários,Extrafloral_Nectaries
+65,,Ausentes,Nectários,Extrafloral_Nectaries
+66,,Pétalas amarelas,Corola,Corolla
+67,,Pétalas vermelhas ou alaranjadas,Corola,Corolla
+68,,Estames: 10,Androceu,Androecium
+69,,Estames: 2 - 9,Androceu,Androecium
+70,,"Tricomas glandulares apenas nas regiões meristemáticas (coléteres)",Indumento,Indumentum
+71,,"Tricomas glandulares (híspidos, setosos, glutinosos) em outras partes da planta",Indumento,Indumentum

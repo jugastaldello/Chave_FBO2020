@@ -1,0 +1,21 @@
+---
+title: "Sobre"
+author: "Juliana Gastaldello Rando"
+date: "11/3/2020"
+output: html_document
+---
+\
+
+\
+
+***
+### Em breve muitas imagens :)
+
+***
+![](Ch_arro.jpg)
+
+*Chamaecrista arrojadoana* (Harms) Rando
+
+
+
+
